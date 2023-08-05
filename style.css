@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.final-date {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#message {
+    background-color: greenyellow;
+    text-align: center;
+    display: none;
+    padding: 30px;
+}
+
+.clock-container {
+    background-color: darkcyan;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    width: 400px;
+    height: 80px;
+    margin: 20px auto;
+}
+
+.cell h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
